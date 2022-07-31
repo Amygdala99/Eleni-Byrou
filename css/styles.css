@@ -287,7 +287,7 @@ li{
 
 /* Ecoflag */
 
-.how-section1{
+/* .how-section1{
   margin-top:-15%;
   padding: 10%;
 }
@@ -310,7 +310,7 @@ li{
 }
 .how-img img{
   width: 40%;
-}
+} */
 
 
 @media (max-width: 1028px){
@@ -341,6 +341,21 @@ li{
   .carousel-control-prev,
   .carousel-control-next {
   margin: 0% 0%;
+  }
+
+
+
+  .work-experience-text{
+    color:#646FD4
+  }
+
+  td{
+    font-size: medium;
+    color: #fff;
+  }
+  
+  li{
+    font-size: medium;
   }
 }
 
