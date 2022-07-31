@@ -333,18 +333,28 @@ li{
   }
 
   .iframe-container{
-    /* width="400" height="225" */
     width: 264px;
     height: 148.5px;
   }
 
-
-  .carousel-control-prev,
-  .carousel-control-next {
-  margin: 0% 0%;
+  #carousel-videos{
+    background-color: #DBDFFD;
+    position: relative;
+    padding: 36% 21%;
   }
 
+  .carousel-hyperlink{
+    margin-top: 120px;
+  }
 
+  .carousel-control-prev,     /* Determines the position (right/left) of each carousel control */
+  .carousel-control-next {
+  margin: -28% -28%;
+  }
+  
+  .carousel-indicators{      /* Determines the position (up/down) of each carousel indicator */
+    bottom: -120px;
+  }
 
   .work-experience-text{
     color:#646FD4
