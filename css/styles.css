@@ -1,4 +1,356 @@
-body {
+body{
+  font-family: Montserrat;
+  text-align: center;
+}
+
+
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat-Bold";  
+}
+
+
+
+p{
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading{
+  font-family: "Montserrat-Black-900";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-left: 7%;
+}
+
+.subtitle-heading{
+  color: #DBDFFD;
+  padding-left: 7%;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.socials{
+  padding: 10% 3%;
+  margin-left: 3.5%;
+}
+
+/* Containers */
+
+/* .container-fluid{
+  padding: 7% 15%;
+} */
+
+
+
+/*Navigation Bar*/
+
+.navbar{
+  background-color: #242F9B;
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+ font-family: Ubuntu;
+ font-size: 2.5rem;
+ font-weight: bold; 
+ padding-left: 3%;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/*Download Buttons*/
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+
+/* Title Section */
+
+
+
+/* #title .container-fluid{
+  padding: 3% 15% 7%;
+} */
+
+/* Title Image */
+
+/* .title-image{
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+} */
+
+
+.cat-btn{
+  font-size: x-large;
+}
+
+#title{
+  background-color: #242F9B;
+  color: #fff;
+  text-align: left;
+}
+
+.row{
+  padding-bottom: 20px;
+}
+
+/* Carousel sector */
+
+
+.eco-flag-heading{
+  color: #242F9B;
+  text-decoration: none;
+}
+
+.eco-flag-heading:hover{
+  color:#646FD4;
+  text-decoration: none;
+}
+
+#carousel-videos{
+  background-color: #DBDFFD;
+  position: relative;
+  padding: 7% 15%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+  color: #646FD4;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+margin: 0% -18%;
+}
+
+.carousel-indicators{
+  bottom: -80px;
+}
+
+#car-btn{
+  width: 50px;
+  height: 4px;
+  padding: 0px;
+  margin-left: 12px;
+  margin-right: 12px;
+  background-color: #242F9B;
+}
+
+
+.carousel-control-prev-icon:hover{
+  color: #646FD4;
+}
+
+.carousel-control-next-icon:hover{
+  color: #646FD4;
+}
+
+td{
+  font-size: larger;
+  color: #fff;
+}
+
+li{
+  font-size: larger;
+}
+
+/* Studies sector */
+
+#studies{
+  background-color: #646FD4;
+  position: relative;
+  padding: 7% 15%;
+}
+
+.studies-heading{
+  color:#fff
+}
+
+.home-btn-studies{
+  font-size: x-large;
+  color: aliceblue;
+  text-align: right;
+}
+
+.home-btn-studies:hover{
+  color: #000000;
+}
+
+/* Work experience sector */
+
+#work-experience{
+  background-color: #DBDFFD;
+  color: #fff;
+  position: relative;
+  padding: 7% 15%;
+}
+
+.work-experience-text{
+  color:#646FD4
+}
+
+.home-btn-work-experience{
+  font-size: x-large;
+  color: #646FD4;
+  text-align: right;
+}
+
+.home-btn-work-experience:hover{
+  color: #000000;
+}
+
+/* Certifications sector */
+
+#certifications{
+  background-color: #9BA3EB;
+  position: relative;
+  padding: 7% 15%;
+}
+
+.home-btn-certifications{
+  font-size: x-large;
+  color: aliceblue;
+  text-align: right;
+}
+
+.home-btn-certifications:hover{
+  color: #000000;
+}
+
+/* Contact sector */
+
+#contact{
+  background-color: #DBDFFD;
+  position: relative;
+  padding: 7% 15%;
+}
+
+
+
+/*Testimonials section*/
+
+#testimonials{
+  background-color: #646FD4;
+  color: #fff;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+
+
+
+
+
+/* Footer Section */
+
+#footer{
+  padding: 7% 15%;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+
+
+
+/* Ecoflag */
+
+.how-section1{
+  margin-top:-15%;
+  padding: 10%;
+}
+.how-section1 h4{
+  color: #ffa500;
+  font-weight: bold;
+  font-size: 30px;
+}
+.how-section1 .subheading{
+  color: #3931af;
+  font-size: 20px;
+}
+.how-section1 .row
+{
+  margin-top: 10%;
+}
+.how-img 
+{
+  text-align: center;
+}
+.how-img img{
+  width: 40%;
+}
+
+
+@media (max-width: 1028px){
+
+  #title{
+      text-align: center;
+  }
+
+  .title-image{
+      width: 60%;
+      position: static;
+      transform: rotate(0);
+  }
+
+
+  #carousel-videos{
+    background-color: #DBDFFD;
+    position: relative;
+    padding: 16% 1%;
+  }
+
+  .iframe-container{
+    width: 369.6px;
+    height: 207.9px;
+  }
+
+
+  .carousel-control-prev,
+  .carousel-control-next {
+  margin: 0% 0%;
+  }
+}
+
+
+
+
+
+
+
+/* body {
     background-image: url("ocean.jpg");
     background-size: cover;
     font-size: 120%;
@@ -86,4 +438,4 @@ body.certifications{
     width: 100px;
     height: 60px;  
   }
-
+ */
